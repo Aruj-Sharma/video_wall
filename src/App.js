@@ -1,6 +1,7 @@
 import React, { useRef, useState, useCallback, useEffect } from "react";
 import "./App.css";
-import videojs from "video.js";
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import videojs from "!video.js";
 
 import VideoJS from "./VideoJS";
 
