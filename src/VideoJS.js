@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import videojs from "video.js";
 import "video.js/dist/video-js.css";
-import "../App.css";
+import "./App.css";
 
 export const VideoJS = (props) => {
   const videoRef = React.useRef(null);
