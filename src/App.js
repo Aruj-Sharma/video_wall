@@ -2,7 +2,7 @@ import React, { useRef, useState, useCallback, useEffect } from "react";
 import "./App.css";
 import videojs from "video.js";
 
-import VideoJS from "./components/VideoJS";
+import VideoJS from "./VideoJS";
 
 function App() {
   // const [rows, setRows] = useState(0);

@@ -1,33 +1,27 @@
-
 .App {
   text-align: center;
   display: flex;
   background-color: black;
   color: #ddd;
- overflow: hidden;
- max-height: 100vh;
- height: 100%;
-
+  overflow: hidden;
+  max-height: 100vh;
+  height: 100%;
 }
 
-.sidePanel{
- 
-  background-color: #33373d; 
-  padding:20px;
-  height:100%;
-  min-height:100vh;
-
+.sidePanel {
+  background-color: #33373d;
+  padding: 20px;
+  height: 100%;
+  min-height: 100vh;
 }
 
-.inputWrapper{
- 
+.inputWrapper {
   width: 250px;
- height: 100%;
+  height: 100%;
   display: flex;
   flex-direction: row;
- align-items: center;
- justify-content: space-around;
-
+  align-items: center;
+  justify-content: space-around;
 }
 
 .grid-container {
@@ -42,20 +36,19 @@
   width: 100%;
   height: 1fr;
   display: grid;
-  
 }
 
 .grid-cell {
-width: 100%;
+  width: 100%;
 
   background-color: black;
   border: 1px solid #ddd;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.rc{
+.rc {
   width: 80px;
   display: flex;
   flex-direction: column;
@@ -63,13 +56,9 @@ width: 100%;
   align-items: center;
 }
 
-button{
-
-padding: 5px;
-background-color: #39548b;
- text-align: center;
- color: #ddd;
-
-
+button {
+  padding: 5px;
+  background-color: #39548b;
+  text-align: center;
+  color: #ddd;
 }
-
